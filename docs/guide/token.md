@@ -1,3 +1,5 @@
+# Github Token packaging is no longer supported. Please use local packaging instead
+
 # Obtaining a Token
 
 ::: danger Token
@@ -33,39 +35,39 @@ Workflows: Used to compile and package your software
 3. Click the `Settings` button to enter the settings page.
 4. In the left-hand menu, click `Developer settings` to access developer options.
 5. In the left-hand menu, click `Personal access tokens` to go to the token management page.
-6. Click `Generate new token` to create a new token.  
-   GitHub offers two types of tokens—either will work. Use the links below to go directly:  
-   [Personal access tokens (classic)](https://github.com/settings/tokens)  
-   or  
+6. Click `Generate new token` to create a new token.
+   GitHub offers two types of tokens—either will work. Use the links below to go directly:
+   [Personal access tokens (classic)](https://github.com/settings/tokens)
+   or
    [Fine-grained personal access tokens](https://github.com/settings/personal-access-tokens).
 
-7. **For Personal access tokens (classic):**  
-   Simply check the following three permissions: <font color="red">repo, workflow, and user</font>.  
-   ![](../static/imgs/token11.png)  
-   ![](../static/imgs/token12.webp)  
-   Then copy the generated token into PakePlus:  
+7. **For Personal access tokens (classic):**
+   Simply check the following three permissions: <font color="red">repo, workflow, and user</font>.
+   ![](../static/imgs/token11.png)
+   ![](../static/imgs/token12.webp)
+   Then copy the generated token into PakePlus:
    ![](../static/imgs/token12.png)
 
-8. **<font color="red">(Skip this step if you already obtained a token in Step 7. Proceed to Step 9.)</font>**  
-   **For Fine-grained personal access tokens:**  
+8. **<font color="red">(Skip this step if you already obtained a token in Step 7. Proceed to Step 9.)</font>**
+   **For Fine-grained personal access tokens:**
    ![](../static/imgs/token1.png)
 
     - Click `Generate new token`.
     - Enter a token name, set expiration to "No expiration," and add an optional description.
-    - Select `All repositories`.  
+    - Select `All repositories`.
       ![](../static/imgs/token2.png)
-    - **Configure permissions:** Grant the permissions marked in red boxes. Set **Access** to: `Read and write`.  
-      ![](../static/imgs/token3.png)  
-      ![](../static/imgs/token4.png)  
-      ![](../static/imgs/token5.png)  
+    - **Configure permissions:** Grant the permissions marked in red boxes. Set **Access** to: `Read and write`.
+      ![](../static/imgs/token3.png)
+      ![](../static/imgs/token4.png)
+      ![](../static/imgs/token5.png)
       ![](../static/imgs/token7.png)
-    - Click `Generate token` at the bottom to obtain your token:  
+    - Click `Generate token` at the bottom to obtain your token:
       ![](../static/imgs/token8.png)
-    - Copy the token into PakePlus to start using it:  
+    - Copy the token into PakePlus to start using it:
       ![](../static/imgs/token9.png)
 
-9. **Test the Token**  
-   Open PakePlus, click the settings button in the top-right corner, paste the token obtained in Step 7 or 8, and click "Test." If it shows "Token is valid," you're all set!  
+9. **Test the Token**
+   Open PakePlus, click the settings button in the top-right corner, paste the token obtained in Step 7 or 8, and click "Test." If it shows "Token is valid," you're all set!
    ![](../static/imgs/token13.png)
 
 ## Important Notes
